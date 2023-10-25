@@ -30,7 +30,7 @@ spec:
         tier: database
     spec:
       containers:
-      - image: ypwa121/mysql-db:8
+      - image: ypwa121/mysql-db:9
         name: mysql-db
         env:
         - name: MYSQL_ROOT_PASSWORD
