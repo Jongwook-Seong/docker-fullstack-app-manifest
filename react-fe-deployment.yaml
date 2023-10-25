@@ -33,7 +33,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: ypwa121/react-frontend:7
+      - image: ypwa121/react-frontend:8
         name: react-frontend
         ports:
         - containerPort: 80
